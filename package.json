@@ -10,14 +10,27 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^1.0.21",
+    "@mdx-js/react": "^1.0.21",
     "gatsby": "^2.10.4",
+    "gatsby-mdx": "^0.6.3",
+    "gatsby-plugin-manifest": "^2.2.0",
+    "gatsby-plugin-offline": "^2.2.0",
+    "gatsby-plugin-typography": "^2.3.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-typography": "^0.16.19",
+    "typography": "^0.16.19",
+    "typography-theme-fairy-gates": "^0.16.19"
   },
   "devDependencies": {
+    "docz": "^1.2.0",
+    "docz-theme-default": "^1.2.0",
     "prettier": "^1.18.2"
   },
   "repository": {

@@ -1,0 +1,40 @@
+{
+  "config": {
+    "title": "Gatsby Starter Hello World",
+    "description": "A simplified bare-bones starter for Gatsby",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-hello-world",
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "props": [],
+  "entries": [
+    {
+      "key": "src/components/header.mdx",
+      "value": {
+        "name": "Header",
+        "id": "e95e6f20d2ecb97e8a7079c1deef232d",
+        "filepath": "src/components/header.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-hello-world/edit/master/src/components/header.mdx",
+        "slug": "src-components-header",
+        "route": "/src-components-header",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "header",
+            "depth": 1,
+            "value": "Header"
+          },
+          {
+            "slug": "usage",
+            "depth": 2,
+            "value": "Usage"
+          }
+        ]
+      }
+    }
+  ]
+}
